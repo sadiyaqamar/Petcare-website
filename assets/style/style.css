@@ -1,0 +1,1250 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.mainClass {
+  
+    height: 100%;
+    width: 100%;
+}
+
+.navingHeading {
+    padding-bottom: 30px; 
+    background-color: #2e7cbc;
+            /* width: 100%;
+            background-color: rgba(46, 124, 188, 0.5); /* White with 50% opacity */
+            /* padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000; */ 
+    /* background-color:rgba(46,124,188,0.4); */
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    padding-top: 40px;
+    padding-right: 100px;
+
+}
+
+.sidemenuBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidemenuBar ul {
+    margin-right: 0%;
+}
+
+.dogImage {
+    height: 60px;
+    padding-left: 4%;
+    padding-top: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.menuButton {
+    display: none;
+}
+header ul li a:hover{
+        background-color: #303130;
+        border-radius: 6px;
+}
+.premium:hover{
+
+    background-color:none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+.navigationBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 150vh;
+    width: 200px;
+    z-index: 999;
+    background-color:#2e7cbc;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+}
+
+.searchButton {
+    height: 25px;
+}
+
+.docterImage {
+    background-image: url('/assets/images/shape_31.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+    padding-bottom: 12%;
+     z-index: 999;
+}
+
+.firstSection {
+    text-align: center;
+
+}
+
+.p {
+    text-align: center;
+}
+
+.docterImageheading h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: 900;
+    padding-top: 9%;
+}
+
+.docterImagepara {
+    width: 51%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    padding-left: 26%;
+    padding-top: 3%;
+
+}
+
+.ordernowButton button {
+    width: 280px;
+    height: 58px;
+    background-color: #fbc400;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-top: 70px;
+    font-size: 23px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.ordernowButton button:hover
+{
+     background-color:#2e7cbc;
+}
+
+.titleSection {
+    height: 54rem;
+    background-color: #5a9fe6;
+    display: flex;
+    position: relative;
+}
+
+.titleherepara {
+    text-align: center;
+    object-fit: contain;
+    padding-top: 10%;
+}
+.titlehereparaa{
+    text-align: center;
+    object-fit: contain;
+    padding-top: 10%;
+}
+
+.titlehereparaa h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.titlehereparaa p {
+
+    font-size: 32px;
+    color: white;
+    padding-top: 4%;
+
+}
+.titleherepara h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.titleherepara p {
+
+    font-size: 32px;
+    color: white;
+    padding-top: 4%;
+
+}
+
+.cloudImage {
+    position: relative;
+    height: 32rem;
+    width: 23rem;
+}
+
+.shape {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.rightsideCloud {
+    position: relative;
+}
+
+.diceBox {
+    position: absolute;
+    top: 127px;
+    right: 0;
+}
+
+.rightsideCloudimage {
+    height: 32rem;
+    margin-left: 33%;
+    margin-top: -15%;
+
+}
+
+.titlesectionCircle {
+    display: flex;
+    position: absolute;
+    top: 39%;
+
+}
+
+.circleImage {
+    padding-left: 6%;
+}
+.circleimagee{
+    height: 80%;
+}
+.circleimagee:hover{
+
+    background-color:none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.circleImagepara p {
+    color: white;
+    font-size: 23px;
+    width: 94%;
+    text-align: center;
+    padding-top: 3%;
+    margin-left: -6%;
+
+}
+
+.circleImagepara h2 {
+    color: white;
+    padding-top: 2%;
+    padding-left: 27%;
+}
+
+.pethelpingSection {
+
+    height: fit-content;
+
+}
+
+.backgroundImage {
+
+    background-image: url('/assets/images/shape_21.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 130%;
+    padding-bottom: 13%;
+
+}
+
+.CircleOne {
+    margin-top: 50px;
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+.pageFourCircles :hover{
+     transform:scale(1.3);
+     z-index: 2;
+} 
+
+.CircleOne h1 {
+    padding-top: 4.5rem;
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.pageFourCircles {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+
+.docterSection {
+    background-color: #2e7cbc;
+    position: relative;
+    height: 47rem;
+}
+
+.trianglesectionContentHead p {
+    width: 48%;
+    padding-top: 3%;
+}
+
+.triangleImagesection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.triangleImagethissection {
+    position: absolute;
+    top: 5rem;
+    left: 6rem;
+}
+
+.diceImagethissection {
+    position: absolute;
+    top: 5rem;
+    right: 11rem;
+}
+
+.triangleMask img {
+    width: 84%;
+}
+
+.trianglesectionContent {
+    margin: 12rem 0 0 12rem;
+    display: flex;
+}
+
+.trianglesectionContentHead {
+    color: white;
+    font-size: 35px;
+    padding-top: 2rem;
+}
+
+.triangleMask {
+    position: absolute;
+    left: 57%;
+    top: 18%;
+}
+
+.triangleImagesectionshape {
+    position: absolute;
+    bottom: 3rem;
+    left: 12rem;
+}
+
+.triangleImagesectionicon {
+    position: absolute;
+    bottom: -2rem;
+    right: 16rem;
+}
+
+.trianglesectionContentHead button,
+.reverseTrianglesection button {
+    width: 284px;
+    height: 54px;
+    background-color: #fbc400;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.reverseTrianglesection button:hover
+{
+   background-color:black;
+}
+.trianglesectionContentHead button:hover{
+ background-color:black ;
+}
+
+.reverseTrianglesection {
+    position: relative;
+    background-color: #5a9fe6;
+    height: 797px;
+}
+
+.reverseTrianglesectioneImages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reverseTriangleimage {
+    position: absolute;
+    left: 5rem;
+    top: 4rem;
+}
+
+.reverseTriangleimagedice {
+    bottom: 3rem;
+    position: absolute;
+    left: 12rem;
+}
+
+.reverseTriangleimageobject {
+    position: absolute;
+    top: 6rem;
+    right: 5rem;
+}
+
+.reverseTriangleimagecontent {
+    margin: 180px 0 0 180px;
+    display: flex;
+}
+
+.reverseTriangleimageheading {
+    padding-left: 140px;
+    padding-top: 30px;
+    color: white;
+    font-size: 35px;
+    padding-top: 2rem;
+}
+
+.reverseTrianglePara {
+    color: white;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.reverseTriangleimagediceon {
+    position: absolute;
+    bottom: 6rem;
+    right: 24rem;
+}
+
+.reverseTriangleimagee {
+
+    height: 458px;
+    margin-top: -3%;
+}
+
+.pricingSection {
+
+    height: 45rem;
+    background-color: #2e7cbc;
+}
+
+.pricingSectionpara,
+.loremSectionpara {
+    text-align: center;
+    object-fit: contain;
+    padding-top: 4%;
+}
+
+.pricingSectionpara h1,
+.loremSectionpara h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.pricingSectionpara p,
+.loremSectionpara p {
+    font-size: 32px;
+    color: white;
+    padding-top: 3%;
+}
+
+.pricingPremiumbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.premium {
+    border: 1px solid white;
+    height: 22rem;
+    margin-top: 3%;
+    width: 19%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.premiumContent h2 {
+    color: #5a9fe6;
+    padding-top: 6%;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.premiumContentimage {
+    height: 75px;
+    padding-left: 31%;
+    padding-top: 9%;
+}
+
+.premiumContent p {
+    color: #5a9fe6;
+    padding-left: 7%;
+    padding-top: 8%;
+    font-size: 20px;
+}
+
+.premiumContent button {
+
+    width: 240px;
+    height: 39px;
+    background-color: #fbc400;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 7%;
+}
+
+.loremSection {
+ 
+    background-color: #5a9fe6;
+    position: relative;
+    padding-bottom: 6%;
+
+}
+
+.loremSectioncontent {
+    margin-top: 3%;
+    height: 13rem;
+    display: flex;
+}
+
+.loremSectioncontentmiddlepart {
+    display: flex;
+    padding: 50px 0 0 127px;
+}
+
+.loremSectionheading h2 {
+    color: white;
+    font-size: 32px;
+    padding-left: 3%;
+
+}
+
+.loremSectionheading p {
+    color: white;
+    padding-left: 3%;
+    padding-top: 3%;
+    font-size: 23px;
+    width: 67%;
+}
+
+.premiumContentimagee {
+    margin-top: 5%;
+}
+
+.imageSection {
+    margin: 22px 0 0 0;
+}
+
+.diceImage {
+    position: absolute;
+    top: 14%;
+    right: 1%;
+}
+
+.cloudImages {
+    position: absolute;
+    right: 91px;
+    bottom: -51px;
+
+}
+
+.rightcloudImages {
+    height: 285px;
+    width: 138%;
+
+}
+.lastSection{
+        position: relative;
+        z-index: 999;
+    
+}
+.lastSectionbackgroundimage {
+    background-image: url(/assets/images/shape_16.jpg);
+    background-size: cover;
+    height: 50rem;
+    z-index: 99;
+    padding-bottom: 10%;
+
+}
+
+.lastSectionpara {
+    font-size: 48px;
+    color: white;
+    padding: 495px 0 0 271px;
+    width: 66%;
+    text-align: center;
+}
+
+.lastSectionpara h3 {
+    padding-top: 5%;
+}
+
+.footer {
+    position: relative;
+    background-color: #303130;
+    height: 30rem;
+    width: 100%;
+    color: white;
+    margin-top: -4px;
+}
+
+.footerContent {
+    padding: 8rem 0 0 0rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerContentLorem {
+    width: 31%;
+    font-size: 20px;
+}
+
+.title {
+
+    font-size: 30px;
+}
+
+.ipsum {
+    padding-top: 20px;
+    width: 80%;
+}
+
+.footerContentlogo {
+    padding-top: 20px;
+    word-spacing: 10px;
+}
+
+.footerContentaboutsection {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footerr {
+    font-size: 19px;
+    line-height: 2.5rem;
+}
+
+.footerContentlogo img {
+    height: 35px;
+}
+
+@media screen and (max-width:1000px) and (min-width:750px) {
+
+    header li {
+        padding-right: 0;
+    }
+
+    .hidesidebarOnmobile {
+        display: none;
+    }
+
+    .menuButton {
+        display: block;
+    }
+
+    .docterImage {
+        height: 23rem;
+    }
+    .searchButton {
+        display: none;
+    }
+
+    .docterImageheading h1 {
+        font-size: 57px;
+        padding-top: 6%;
+    }
+
+    .docterImagepara {
+        width: 72%;
+        padding-left: 14%;
+        font-size: 22px;
+    }
+    .ordernowButton button {
+        width: 248px;
+        height: 42px;
+        margin-top: 39px;
+       
+    }
+
+    .backgroundImage {
+        width: 100%;
+    }
+
+    .diceImagethissection {
+
+        top: 2rem;
+        right: 5rem;
+    }
+    .titlehereparaa p {
+        font-size: 28px;
+        margin-left: 41px;
+    }
+
+    .trianglesectionContent {
+        margin: 10rem 0 0 3rem;
+    }
+
+    .trianglesectionContentHead p {
+        width: 56%;
+        font-size: 22px;
+    }
+    .triangleMask {
+        top: 24%;
+    }
+    .docterSection {
+        height: 40rem;
+    }
+    .reverseTrianglesection {
+        height: 655px;
+    }
+    .pricingSectionpara p {
+        font-size: 27px;
+    }
+    .premiumContent button {
+        width: 192px;
+    }
+    .premiumContent p {
+        font-size: 16px;
+    }
+
+    .premium {
+        width: 29%;
+        margin-top: 8%;
+        height: 20rem;
+    }
+    .pricingSection {
+           
+        height: 38rem;
+    }
+    .loremSectionpara p {
+        font-size: 26px;
+    }
+
+    .cloudImages {
+        display: none;
+    }
+
+    .loremSectioncontentmiddlepart {
+        padding: 50px 0 0 16px;
+    }
+
+    .titlesectionCircle {
+            margin-left: -1%;
+            width: 49%;
+            margin-top: -7%;
+        }
+    
+
+    .loremSectionheading p {
+        width: 87%;
+        font-size: 18px;
+    }
+
+    .lastSectionbackgroundimage {
+        height: fit-content;
+    }
+
+    .lastSectionpara {
+       
+        font-size: 28px;
+        padding: 266px 0 0 129px;
+
+    }
+
+    .pethelpingSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .rightsideCloudimage {
+        display: none;
+    }
+
+    .mainClass {
+        width: fit-content;
+    }
+
+    .rightsideCloudimage {
+        display: none;
+    }
+
+    .circleImage {
+        margin-left: -24%;
+    }
+    .circleimagee {
+        height: 43%;
+        margin-left: 32%;
+    }
+    .circleImagepara p {
+       
+        font-size: 27px;
+        width: 71%;
+        padding-top: 13%;
+        margin-left: 32%;
+    }
+    .circleImagepara h2 {
+        padding-top: 7%;
+        padding-left: 53%;
+    }
+
+
+    .footer {
+        height: 34rem;
+    }
+
+    header li {
+        padding-right: 88px;
+        padding-top: 52px;
+    }
+    .diceBox {
+        top: 48px;
+        right: -224px;
+    }
+
+    .cloudImage {
+        display: none;
+    }
+
+    .shape {
+        display: none;
+    }
+    .titleherepara p {
+        font-size: 25px;
+    }
+
+    .diceBox {
+        display: none;
+    }
+
+    .reverseTriangleimagee {
+        height: 273px;
+    }
+
+    .reverseTriangleimagecontent {
+        margin: 167px 0 0 33px;
+    }
+
+    .reverseTriangleimageheading {
+        padding-left: 59px;
+        padding-top: 0rem;
+    }
+
+    .reverseTrianglePara {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .docterImageheading h1 {
+        font-size: 48px;
+        padding-top: 17%;
+    }
+}
+/* @media screen and (max-width:414px){
+
+    .titlehereparaa p {
+        font-size: 38px;
+        margin-left: 60px;
+    }
+} */
+
+@media screen and (max-width: 600px) and (min-width: 300px){
+    
+    header li {
+        padding-right: 0;
+    }
+
+    .hidesidebarOnmobile {
+        display: none;
+    }
+
+    .menuButton {
+        display: block;
+                margin-left: 198%;
+    }
+    .searchButton {
+        display: none;
+    }
+    
+    .trianglesectionContentHead {
+
+        margin-left: -34%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 429px 62px;
+
+    }
+
+    .mainClass {
+        width: 251%;
+    }
+
+    .pricingPremiumbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8%;
+    }
+
+    .pricingSectionpara h1 {
+        font-size: 48px;
+    }
+
+    .pricingSectionpara p {
+        font-size: 36px;
+    }
+
+    .premium {
+        width: 51%;
+        height: 37rem;
+    }
+    .premiumContent h2 {
+        font-size: 45px;
+    }
+    .premiumContentimage {
+        height: 143px;
+        padding-left: 33%;
+    }
+    .premiumContent p {
+        font-size: 34px;
+    }
+    .premiumContent button {
+        width: 414px;
+        height: 62px;
+        font-size: 38px;
+    }
+    .pricingSection {
+        height: fit-content;
+    }
+
+    .diceImage {
+        display: none;
+    }
+
+    .loremSectioncontentmiddlepart {
+        padding: 52px 0 0 55px;
+    }
+
+
+    .loremSectionheading p {
+        width: 99%;
+    }
+
+    .loremSectioncontent {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .premiumContentimagee {
+        height: 89%;
+    }
+    .loremSectionheading h2 {
+        font-size: 51px;
+        padding-left: 25%;
+    }
+    .loremSectionheading p {
+        width: 70%;
+        font-size: 32px;
+        padding-left: 25%;
+    }
+
+    .cloudImages {
+        display: none;
+    }
+
+    .imageSection {
+        display: none;
+    }
+
+    .lastSectionbackgroundimage {
+        height: 38rem;
+    }
+
+    .lastSectionpara {
+        width: 99%;
+        padding-top: 33%;
+        padding-left: 0%;
+    }
+
+    .reverseTriangleimagee {
+        margin-top: -18%;
+        height: 555px;
+        width: 77% !important;
+        margin-left: 0%;
+
+    }
+    .reverseTrianglesection{
+        height: 1099px;
+    }
+
+    
+    .reverseTriangleimagecontent {
+        flex-direction: column;
+    }
+
+    .docterImage {
+        height: 79vh;
+        position: static;
+    }
+
+    .docterImagepara {
+        width: 81%;
+        padding-left: 9%;
+    }
+
+    header li {
+        padding-top: 53px;
+        padding-right: 82px;
+    }
+    .titleSection{
+        height: 219em;
+    }
+
+    .titlesectionCircle {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -99%;
+
+    }
+
+    .titleherepara h1 {
+        font-size: 70px;
+    }
+
+    .titleherepara {
+            display: flex;
+            flex-direction: column;
+    }
+    .titlehereparaa h1 {
+        font-size: 70px;
+    }
+    .titlehereparaa p {
+        font-size: 38px;
+        margin-left: 12px;
+    }
+    .circleImagepara p {
+
+        font-size: 38px;
+        margin-bottom: 11%;
+        margin-left: 1%;
+    }
+    .circleimagee{
+        width: 72%;
+        padding-left: 11%;
+    }
+    .circleImagepara h2 {
+        text-align: center;
+        font-size: 56px;
+        padding-left: 0%;
+    }
+    .rightsideCloudimage {
+        display: none;
+    }
+
+    element.style {
+        display: none;
+    }
+
+    element.style {
+        display: none;
+    }
+
+    .triangleImage {
+        display: none;
+    }
+
+    .titleherepara p {
+        font-size: 32px;
+    }
+
+    .cloudImage {
+        display: none;
+    }
+
+    .diceBox {
+        display: none;
+    }
+
+    .cloudImage {
+        display: none;
+    }
+
+    .backgroundImage {
+        height: 100%;
+        width: 100%;
+    }
+
+    .trianglesectionContentHead {
+        font-size: 30px;
+        margin-left: -43%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 477px 0px;
+
+    }
+    .docterSection {
+        height: 69rem;
+    }
+    .trianglesectionContent {
+        margin: 12rem 0 0 8rem;
+    }
+
+    .triangleImagethissection {
+        left: 0rem;
+
+    }
+
+    .trianglesectionContentHead p {
+        width: 58%;
+        margin-left: 35%;
+    }
+    .reverseTrianglesection button
+    {
+        width: 317px;
+        height: 53px;
+        font-size: 36px;  
+    }
+
+    .trianglesectionContentHead button{
+        width: 317px;
+        height: 53px;
+        font-size: 36px;
+        margin-left: 5%;
+    }
+
+    .triangleMask img {
+        width: 331%;
+        margin: 113px 0 0 -364px;
+        height: 34rem;
+    }
+
+    .triangleImagethissection {
+        display: none;
+    }
+
+    .diceImagethissection {
+
+        display: none;
+    }
+
+    .triangleImagesectionshape {
+        display: none;
+    }
+
+    .triangleImagesectionicon {
+        display: none;
+    }
+
+    .triangleMask {
+        top: -5%;
+    }
+
+    .reverseTriangleimage {
+        display: none;
+    }
+
+    .reverseTriangleimageobject {
+        display: none;
+    }
+
+    .reverseTriangleimageheading {
+        margin-top: 5%;
+        font-size: 32px;
+        margin-left: -9%;
+
+    }
+
+    .reverseTrianglePara {
+
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .reverseTriangleimagediceon {
+
+        display: none;
+    }
+
+    .reverseTriangleimagedice {
+        display: none;
+    }
+
+    .sidemenuBar {
+        margin-right: 64%;
+
+    }
+    .loremSectionpara h1 {
+        font-size: 51px;
+    }
+    .footerContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.footer{
+    height: fit-content;
+}
+    .footerr {
+        font-size: 40px;
+        line-height: 4.5rem;
+        text-align: center;
+    }
+
+.title {
+    font-size: 63px;
+    padding-top: 24%;
+    text-align: center;
+    font-weight: 600;
+}
+.ipsum {
+    font-size: 38px;
+    width: 222%;
+    margin-left: -62%;
+}
+.footerContentlogo img {
+    height: 145px;
+    padding-top: 12%;
+}
+.footerContentlogo {
+    display: flex;
+    gap: 3rem;
+    margin-left: -75%;
+}
+}
